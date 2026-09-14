@@ -15,6 +15,7 @@ main
  └── rom_builder.ipynb
  └── config.json       # File to set the training parameters
  └── train.py       # File to train the GPR (alternative to jupyter notebook in .ipynb)
-``
+```
 
- 
+### Detailed information on how to use and what the code does is in ```DT.ipynb```.
+
