@@ -1,0 +1,28 @@
+{
+    "_description": "Training configuration for GPR (Gaussian Process Regression) with POD (Proper Orthogonal Decomposition)",
+    
+    "data_folder": "plane-xz-strip-middle_outlet",
+
+    "normalization": {
+        "_comment": "Scaling/normalization strategy for inputs (P) and outputs (X). Options: 'none', 'std', 'range', etc.",
+        "scaleP_type": "std",
+        "scaleX_type": "std",
+        "scaleX_type_species": "std",
+        "axis_cnt": 1
+    },
+
+    "POD": {
+        "_comment": "Mode selection strategy for dimensionality reduction. Options: 'variance' (energy-based), 'number' (manual count)",
+        "select_modes": "variance",
+        "n_modes": 99
+    },
+
+    "GPR_training": {
+        "_comment": "Hyperparameters for GPR training loop",
+        "idx_test": [5, 15, 23],
+        "max_iter": 100000,
+        "rel_error": 1e-05,
+        "lr": 0.1,
+        "verbose": "True"
+    }
+}
