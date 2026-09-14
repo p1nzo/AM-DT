@@ -1,5 +1,5 @@
-# AM-DT
 ## Reduced Order Model (ROM) builder for Direct Firing Furnace (DFF) configuration
+## (Detailed information on how to use and what the code does is in ```DT.ipynb```)
 ***ROM builder for ArcelorMittal***, with code implemented in a *jupyter notebook* for easy use and reproducibility of the training. \
 Hierarchical order of folders must be respected, otherwise the folder paths in the code must change accordingly.
 ```
@@ -17,5 +17,6 @@ main
  └── train.py       # File to train the GPR (alternative to jupyter notebook in .ipynb)
 ```
 
-### Detailed information on how to use and what the code does is in ```DT.ipynb```.
+*NB*: The data that support the findings of this study are not completely publicly available due to restrictions related to the proprietary nature of the industrial data provided by ArcelorMittal. The data may be available from the authors upon reasonable request, subject to permission from ArcelorMittal.
+
 
