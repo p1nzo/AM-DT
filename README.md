@@ -1,5 +1,5 @@
 ## Reduced Order Model (ROM) builder for Direct Firing Furnace (DFF) configuration
-## (Detailed information on how to use and what the code does is in ```DT.ipynb```)
+# (Detailed information on how to use and what the code does is in ```DT.ipynb```)
 ***ROM builder for ArcelorMittal***, with code implemented in a *jupyter notebook* for easy use and reproducibility of the training. \
 Hierarchical order of folders must be respected, otherwise the folder paths in the code must change accordingly.
 ```
