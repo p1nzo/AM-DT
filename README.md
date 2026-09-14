@@ -17,6 +17,6 @@ main
  └── train.py       # File to train the GPR (alternative to jupyter notebook in .ipynb)
 ```
 
-*NB*: The data that support the findings of this study are not completely publicly available due to restrictions related to the proprietary nature of the industrial data provided by ArcelorMittal. The data may be available from the authors upon reasonable request, subject to permission from ArcelorMittal.
+*NB*: The data that support the findings of this study are not completely publicly available due to restrictions related to the proprietary nature of the industrial data provided by ArcelorMittal. The data may be available from the authors upon reasonable request, subject to permission from ArcelorMittal. The ones here reported are examples to let the user run the code (the data are normalized).
 
 
